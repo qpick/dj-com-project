@@ -8,14 +8,14 @@
         <script src="https://kit.fontawesome.com/d4459eee0f.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-        <title>Google Search</title>
+        <title>Google Images Search</title>
     </head>
     <body>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="list text-right">
-                        <li><a href="images.html">Google Image Search</a></li>
+                        <li><a href="index.html">Google Search</a></li>
                         <li><a href="advanced.html">Google Advanced Search</a></li>
                     </ul>
                 </div>
@@ -23,9 +23,10 @@
             <div class="row">
                 <div class="offset-lg-3 col-lg-6 text-center">
                     <img src="google.png">
-                    <form action="https://google.com/search">
+                     <form action="https://google.com/search">
                         <div class="google-input">
                             <span><i class="fas fa-search"></i></span>
+                            <input type="hidden" name="tbm" value="isch">
                             <input type="text" placeholder="Search Google or type a URL" class="form-control" name="q">
                         </div>
                         <input  class="submit" type="submit" value="Google Search">
